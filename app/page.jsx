@@ -6,7 +6,7 @@ import { Hero } from './components/Hero';
 import { Services } from './components/Services';
 import { About } from './components/About';
 import { Experience } from './components/Experience';
-import { Projects } from './components/Projects';
+import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact';
 import { FixedMenu } from './components/FixedMenu';
 import { Footer } from './components/Footer';
@@ -27,7 +27,7 @@ const Home = () => {
       <Services />
       <About />
       <Experience />
-      {/* <Projects /> */}
+      <Projects />
       <Contact />
       <Footer />
     </main>

@@ -1,4 +1,5 @@
 import { Inter, Bebas_Neue } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body className={`${inter.variable} ${bebas.variable} antialiased`}>{children}</body>
+      <GoogleAnalytics gaId='G-C7RCT1CN0L' />
     </html>
   );
 }
